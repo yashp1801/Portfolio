@@ -1,0 +1,235 @@
+.resume {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.resume__container {
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 14rem 10rem 14rem;
+}
+.resume__title {
+  height: max-content;
+  width: 100%;
+  position: relative;
+}
+.title__wrapper {
+  font-size: 7rem;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+.resume__icon__wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.resume__icon__wrapper span {
+  font-size: 1rem;
+}
+
+.resume__links {
+  border-top: 1px solid #141414;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+.link__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.link__wrapper span {
+  font-size: 1rem;
+  color: #141414;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.link__wrapper a {
+  color: #141414;
+  font-size: 1rem;
+}
+
+.resume__form__container {
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+  padding: 2rem;
+  height: max-content;
+  background-color: #141414;
+}
+.form__wrapper {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form__content {
+  font-size: 2rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.resume__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.resume__form input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: none;
+  outline: none;
+  color: #fff;
+}
+.resume__form textarea {
+  width: 100% !important;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  border: 2px solid #fff;
+  resize: none;
+  color: #fff;
+  background: none;
+}
+.resume__form button {
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background: none;
+  border: 1px solid #fff;
+  transition: 0.2s ease-out;
+}
+.resume__form button:hover {
+  background-color: #fff;
+  transition: 0.2s ease-in;
+  color: #141414;
+}
+.resume__image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  overflow: hidden;
+}
+.resume__image img {
+  width: 80%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #141414;
+  z-index: 999;
+}
+@media screen and (max-width: 1450px) {
+  .form__content {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .resume__form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .title__wrapper {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .resume__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: flex-start;
+    align-items: center;
+  }
+  .link__wrapper span {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .resume__form__container {
+    padding: 1rem;
+  }
+  .form__content {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .resume__form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .resume__container {
+    padding: 5rem 7rem 5rem 7rem;
+  }
+  .resume__icon__wrapper {
+    display: none;
+  }
+  .resume__image {
+    display: none;
+  }
+  /* .form__image img {
+    display: none;
+  } */
+  .resume__form__container {
+    width: 100%;
+  }
+  .form__wrapper {
+    width: 100%;
+  }
+  .title__wrapper {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .resume__container {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .resume__container {
+    padding: 2rem;
+  }
+  .title__wrapper {
+    font-size: 2.2rem;
+  }
+  .form__content {
+    text-align: center;
+    width: 100%;
+  }
+}

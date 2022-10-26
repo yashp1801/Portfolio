@@ -1,0 +1,175 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #fff; */
+  position: relative;
+}
+
+.home__container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.2;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.home__navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: max-content;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__links{
+  width: 20%;
+}
+
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  overflow: hidden;
+}
+
+.home__content h1 {
+  font-size: 6.5rem;
+  text-transform: uppercase;
+}
+
+.background__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+.homevideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+}
+.homevideo.active {
+  visibility: visible;
+}
+
+.homevideo1 {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.homevideo1.active1 {
+  visibility: visible;
+}
+
+
+.homevideo2 {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.homevideo1.active2 {
+  visibility: visible;
+}
+
+.menu__toggle__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.icon__wrapper {
+  position: relative;
+  height: max-content;
+  width: max-content;
+}
+.toggle__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  visibility: hidden;
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #141414;
+  z-index: 999;
+}
+
+
+@media screen and (max-width: 1550px) {
+  .home__content h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .home__content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home__content h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .home__navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #454545;
+    height: 40%;
+    transform: translateY(-100%);
+    transition: 0.3s ease-out;
+  }
+  .menu__links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    
+  }
+  .toggle__icon {
+    visibility: visible;
+  }
+  .home__navbar.toggle{
+    transform: translateY(0%);
+    transition: 0.3s ease-in;
+
+  }
+}
+
+@media screen and (max-width : 500px) {
+  .home__content h1{
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
