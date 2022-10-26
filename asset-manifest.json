@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.077b6f75.css",
+    "main.js": "/Portfolio/static/js/main.7dcc95e6.js",
+    "static/media/workvid2.mkv": "/Portfolio/static/media/workvid2.bf8f8aabad371cbf51fa.mkv",
+    "static/media/workvid4.mkv": "/Portfolio/static/media/workvid4.91eba178ec72deb54e8f.mkv",
+    "static/media/workvid3.mkv": "/Portfolio/static/media/workvid3.969354b4f8efe4ba00d7.mkv",
+    "static/media/workvid1.mp4": "/Portfolio/static/media/workvid1.05ea263e0f99da619515.mp4",
+    "static/media/workvid5.mkv": "/Portfolio/static/media/workvid5.ecfe3c65cff5c07690cb.mkv",
+    "static/media/resumeImg.jpg": "/Portfolio/static/media/resumeImg.d10f3146e21614ec0a75.jpg",
+    "static/media/workImg3.png": "/Portfolio/static/media/workImg3.669173aee150a2303996.png",
+    "static/media/workImg4.png": "/Portfolio/static/media/workImg4.f6cea4d6ec2392a10fc8.png",
+    "static/media/workImg2.png": "/Portfolio/static/media/workImg2.b507ff8771d0725e650b.png",
+    "static/media/workImg1.png": "/Portfolio/static/media/workImg1.770c4848486b20821d73.png",
+    "static/media/TT Hoves Medium.otf": "/Portfolio/static/media/TT Hoves Medium.5422345bf71ef598ba8c.otf",
+    "static/media/workImg5.png": "/Portfolio/static/media/workImg5.a105c5a443a6d077eb06.png",
+    "index.html": "/Portfolio/index.html",
+    "main.077b6f75.css.map": "/Portfolio/static/css/main.077b6f75.css.map",
+    "main.7dcc95e6.js.map": "/Portfolio/static/js/main.7dcc95e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.077b6f75.css",
+    "static/js/main.7dcc95e6.js"
+  ]
+}
